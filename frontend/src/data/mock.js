@@ -9,6 +9,7 @@ export const editorProfile = {
   phone: "0991764695",
   location: "Syria",
   photo: "https://customer-assets.emergentagent.com/job_vizstudio-3/artifacts/5wiatuoz_IMG_20251130_091203.jpg",
+  cvUrl: "https://customer-assets.emergentagent.com/job_vizstudio-3/artifacts/4rvzo7e2_Samer%20Hanna%20CV.pdf",
   social: {
     instagram: "https://www.instagram.com/samerrhanna_?igsh=dXY2Z3N1aDE4cG9v",
     facebook: "https://www.facebook.com/samer.hanna.7503?mibextid=ZbWKwL"
