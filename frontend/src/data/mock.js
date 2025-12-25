@@ -67,9 +67,16 @@ export const skills = [
 export const experience = [
   {
     id: 1,
-    role: "Video Editor",
+    role: "After Effects",
     company: "Freelance",
-    period: "2024 - 2025",
+    period: "2025",
+    description: "Advanced motion graphics and visual effects for commercials and music videos."
+  },
+  {
+    id: 2,
+    role: "Premiere Pro",
+    company: "Freelance",
+    period: "2024",
     description: "Professional video editing for commercials, documentaries, and narrative filmmaking."
   }
 ];
