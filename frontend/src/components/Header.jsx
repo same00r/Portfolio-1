@@ -47,7 +47,7 @@ const Header = () => {
                 <div className="absolute inset-0 bg-white/20 opacity-0 group-hover:opacity-100 transition-opacity duration-300" />
               </div>
               <span className="font-display text-xl tracking-tight text-white">
-                MARCUS<span className="text-amber-400">.</span>
+                SAMER<span className="text-amber-400">.</span>
               </span>
             </motion.a>
 
