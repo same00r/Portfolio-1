@@ -1,6 +1,6 @@
 import React, { useRef } from 'react';
 import { motion, useScroll, useTransform } from 'framer-motion';
-import { Briefcase } from 'lucide-react';
+import { Briefcase, Download } from 'lucide-react';
 import { editorProfile, skills, experience } from '../data/mock';
 
 const About = () => {
@@ -47,7 +47,7 @@ const About = () => {
             whileInView={{ opacity: 1, x: 0 }}
             viewport={{ once: true }}
             transition={{ duration: 0.8 }}
-            className="flex justify-center lg:justify-start"
+            className="flex flex-col items-center lg:items-start gap-6"
           >
             <div className="relative">
               <div className="w-72 h-72 md:w-80 md:h-80 rounded-2xl overflow-hidden border-2 border-amber-400/20">
@@ -60,6 +60,20 @@ const About = () => {
               {/* Decorative elements */}
               <div className="absolute -bottom-4 -right-4 w-72 h-72 md:w-80 md:h-80 rounded-2xl border border-amber-400/30 -z-10" />
             </div>
+            
+            {/* Download CV Button */}
+            <motion.a
+              href={editorProfile.cvUrl}
+              target="_blank"
+              rel="noopener noreferrer"
+              download="Samer_Hanna_CV.pdf"
+              whileHover={{ scale: 1.05 }}
+              whileTap={{ scale: 0.95 }}
+              className="inline-flex items-center gap-3 px-8 py-4 bg-amber-400 text-black font-semibold rounded-full hover:bg-amber-500 transition-colors duration-300"
+            >
+              <Download className="w-5 h-5" />
+              Download CV
+            </motion.a>
           </motion.div>
 
           {/* Middle Column - Bio & Skills */}
