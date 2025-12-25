@@ -191,18 +191,20 @@ const Contact = () => {
             <div>
               <h3 className="text-lg font-semibold text-white mb-4">Connect</h3>
               <div className="flex flex-wrap gap-3">
-                {Object.entries(editorProfile.social).map(([platform, url]) => (
-                  <motion.a
-                    key={platform}
-                    href={url}
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    whileHover={{ scale: 1.05, y: -2 }}
-                    whileTap={{ scale: 0.95 }}
-                    className="px-6 py-3 rounded-full border border-white/10 bg-white/[0.02] text-gray-300 font-medium capitalize hover:border-amber-400/50 hover:text-amber-400 transition-all duration-300 flex items-center gap-2"
-                  >
-                    {platform}
-                    <ArrowUpRight className="w-4 h-4" />
+                {Object.entries(editorProfile.social).map(([platform, url]) => {
+                  const IconComponent = socialIcons[platform];
+                  return (
+                    <motion.a
+                      key={platform}
+                      href={url}
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      whileHover={{ scale: 1.05, y: -2 }}
+                      whileTap={{ scale: 0.95 }}
+                      className="px-6 py-3 rounded-full border border-white/10 bg-white/[0.02] text-gray-300 font-medium capitalize hover:border-amber-400/50 hover:text-amber-400 transition-all duration-300 flex items-center gap-2"
+                    >
+                      {IconComponent && <IconComponent className="w-5 h-5" />}
+                      {platform}
                   </motion.a>
                 ))}
               </div>
