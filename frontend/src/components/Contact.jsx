@@ -1,11 +1,16 @@
 import React, { useState } from 'react';
 import { motion } from 'framer-motion';
-import { Mail, Phone, MapPin, Send, ArrowUpRight } from 'lucide-react';
+import { Mail, Phone, MapPin, Send, Instagram, Facebook } from 'lucide-react';
 import { editorProfile } from '../data/mock';
 import { Button } from './ui/button';
 import { Input } from './ui/input';
 import { Textarea } from './ui/textarea';
 import { Label } from './ui/label';
+
+const socialIcons = {
+  instagram: Instagram,
+  facebook: Facebook
+};
 
 const Contact = () => {
   const [formData, setFormData] = useState({
