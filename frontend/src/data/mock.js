@@ -19,42 +19,42 @@ export const editorProfile = {
 export const projects = [
   {
     id: 1,
-    title: "VELOCITY",
-    subtitle: "Nike Running Campaign",
-    category: "Commercial",
+    title: "PORSCHE TURBO S",
+    subtitle: "Car Editing",
+    category: "Automotive",
     year: 2024,
-    duration: "2:30",
-    description: "High-octane commercial showcasing the power of human endurance. Shot across multiple continents with dynamic transitions and color grading.",
-    thumbnail: "https://images.unsplash.com/photo-1571019614242-c5c5dee9f50b?w=1200&h=800&fit=crop",
-    videoUrl: "https://player.vimeo.com/video/76979871",
+    duration: "0:30",
+    description: "High-energy automotive showcase featuring the iconic Porsche Turbo S. Dynamic camera movements, sleek color grading, and cinematic transitions that capture the power and elegance of this supercar.",
+    thumbnail: "https://images.unsplash.com/photo-1614162692292-7ac56d7f7f1e?w=1200&h=800&fit=crop",
+    videoUrl: "https://customer-assets.emergentagent.com/job_vizstudio-3/artifacts/s1jfdn99_Porsche%20Turbo%20S.mp4",
     color: "#FF6B35",
-    tags: ["Color Grading", "VFX", "Sound Design"]
+    tags: ["Car Editing", "Color Grading", "VFX"]
   },
   {
     id: 2,
-    title: "ECHOES",
-    subtitle: "Documentary Feature",
-    category: "Documentary",
+    title: "CAMERA 3D",
+    subtitle: "3D Animation",
+    category: "3D Motion",
     year: 2024,
-    duration: "1:45:00",
-    description: "An intimate portrait of urban musicians preserving their cultural heritage. Winner of Best Editing at Tribeca Film Festival.",
-    thumbnail: "https://images.unsplash.com/photo-1493225457124-a3eb161ffa5f?w=1200&h=800&fit=crop",
-    videoUrl: "https://player.vimeo.com/video/76979871",
+    duration: "0:45",
+    description: "Stunning 3D camera animation showcasing advanced motion design and visual effects. Seamless transitions, realistic textures, and dynamic camera work that brings the subject to life.",
+    thumbnail: "https://images.unsplash.com/photo-1516035069371-29a1b244cc32?w=1200&h=800&fit=crop",
+    videoUrl: "https://customer-assets.emergentagent.com/job_vizstudio-3/artifacts/tykxeovp_Project%20Samer%201.mp4",
     color: "#4ECDC4",
-    tags: ["Documentary", "Narrative", "Color Grading"]
+    tags: ["3D Animation", "Motion Design", "VFX"]
   },
   {
     id: 3,
-    title: "PULSE",
-    subtitle: "Music Video",
-    category: "Music Video",
+    title: "ROBOT",
+    subtitle: "3D Character Animation",
+    category: "Animation",
     year: 2024,
-    duration: "3:45",
-    description: "Award-winning music video featuring revolutionary visual effects and rhythmic editing synchronized to every beat.",
-    thumbnail: "https://images.unsplash.com/photo-1514320291840-2e0a9bf2a9ae?w=1200&h=800&fit=crop",
-    videoUrl: "https://player.vimeo.com/video/76979871",
+    duration: "0:40",
+    description: "Creative 3D robot character animation with futuristic design elements. Precise rigging, fluid movements, and atmospheric lighting that showcase technical mastery in character animation.",
+    thumbnail: "https://images.unsplash.com/photo-1485827404703-89b55fcc595e?w=1200&h=800&fit=crop",
+    videoUrl: "https://customer-assets.emergentagent.com/job_vizstudio-3/artifacts/h8s4j2v9_Robot%20Final.mp4",
     color: "#E74C3C",
-    tags: ["Music Video", "VFX", "Color Grading"]
+    tags: ["3D Animation", "Character Design", "VFX"]
   }
 ];
 
