@@ -86,24 +86,24 @@ export const awards = [];
 export const testimonials = [
   {
     id: 1,
-    quote: "Marcus has an extraordinary ability to find the emotional core of any story. His editing elevated our documentary beyond our wildest expectations.",
-    author: "Sarah Mitchell",
-    role: "Director, Echoes Documentary",
-    avatar: "https://images.unsplash.com/photo-1494790108377-be9c29b29330?w=100&h=100&fit=crop"
-  },
-  {
-    id: 2,
-    quote: "Working with Marcus is like having a visual poet on your team. He doesn't just cut footage—he sculpts emotions.",
-    author: "James Rivera",
-    role: "Creative Director, Nike",
+    quote: "Absolutely loved the final cut! Every frame tells a story, and the creativity is next level.",
+    author: "Chris",
+    role: "Client",
     avatar: "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=100&h=100&fit=crop"
   },
   {
+    id: 2,
+    quote: "التعامل كان سلس واحترافي، والفيديو النهائي فاق كل توقعاتي!",
+    author: "Mustafa",
+    role: "Client",
+    avatar: "https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?w=100&h=100&fit=crop"
+  },
+  {
     id: 3,
-    quote: "The precision and creativity Marcus brings to every project is unmatched. A true master of the craft.",
-    author: "Elena Vasquez",
-    role: "Producer, Paramount Pictures",
-    avatar: "https://images.unsplash.com/photo-1438761681033-6461ffad8d80?w=100&h=100&fit=crop"
+    quote: "Super fast, precise, and truly brings ideas to life. Editing that makes an impact!",
+    author: "Rami",
+    role: "Client",
+    avatar: "https://images.unsplash.com/photo-1500648767791-00dcc994a43e?w=100&h=100&fit=crop"
   }
 ];
 
