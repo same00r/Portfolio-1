@@ -82,7 +82,7 @@ const Services = () => {
             Client Words
           </span>
           <h2 className="text-3xl md:text-4xl font-display font-bold text-white tracking-tight">
-            What Directors Say
+            What Clients Say About Samer
           </h2>
         </motion.div>
 
