@@ -167,7 +167,6 @@ const ProjectCard = ({ project, index }) => {
                 playsInline
               />
             </motion.div>
-            </motion.div>
           </motion.div>
         )}
       </AnimatePresence>
