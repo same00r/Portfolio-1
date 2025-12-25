@@ -89,7 +89,7 @@ const Footer = () => {
         <div className="max-w-[1920px] mx-auto px-6 lg:px-12 py-6">
           <div className="flex flex-col md:flex-row items-center justify-between gap-4">
             <p className="text-gray-500 text-sm">
-              © {new Date().getFullYear()} Marcus Chen. All rights reserved.
+              © {new Date().getFullYear()} Samer Hanna. All rights reserved.
             </p>
             <motion.button
               onClick={scrollToTop}
