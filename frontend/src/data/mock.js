@@ -60,12 +60,8 @@ export const projects = [
 export const skills = [
   { name: "Premiere Pro", level: 98 },
   { name: "After Effects", level: 95 },
-  { name: "DaVinci Resolve", level: 92 },
-  { name: "Final Cut Pro", level: 88 },
-  { name: "Cinema 4D", level: 75 },
   { name: "Color Grading", level: 96 },
-  { name: "Sound Design", level: 85 },
-  { name: "Motion Graphics", level: 90 }
+  { name: "Sound Design", level: 85 }
 ];
 
 export const experience = [
